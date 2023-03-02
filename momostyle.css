@@ -1,0 +1,87 @@
+header {
+    background: url('./images/flowers.jpg');
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-style: italic;
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+}
+html,body,p {
+    font-size: 17px;
+    /* color: #666; */
+    font-family: "Gill Sans";
+}
+body {
+    background-color: pink;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.bodycontent {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+ul.nav a {
+    text-decoration: none;
+    color: #9F2B68;
+    font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ul.nav a:hover {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    color: white;
+}
+ul.nav {
+    list-style-type: none; 
+    text-align: center;
+}
+hr {
+    border: 2px solid #9F2B68;
+    border-radius: 5px;
+}
+button {
+    background-color: #9F2B68;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: "Gill Sans";
+    border-radius: 10px;
+}
+#myButton {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #9F2B68;
+}
+#myButton:hover {
+    background-color: #9F2B68;
+    color: white;
+}
+ul.nav li {
+    display: inline-block;
+    padding: 0 40px;
+}
+@media (max-width: 600px) {
+    ul.nav li {
+        padding: 0 10px;
+    }
+    html,body,p {
+        font-size: 8px;
+    }
+    button {
+        font-size: 10px;
+        padding: 8px 16px;
+    }
+}

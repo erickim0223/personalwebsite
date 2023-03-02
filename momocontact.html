@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Momo Flowers</title>
+        <link rel="stylesheet" href="momostyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+            input[type=text], textarea {
+                width: 40%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            textarea {
+                height: 200px;
+            }
+        </style>
+    </head>
+    <header>
+        Momo Flowers
+    </header>
+    <body>
+        <ul class='nav'>
+            <li><a href="momohome.html">Home</a></li>
+            <li><a href="momoflowers.html">Flowers</a></li>
+            <li><a href="momocontact.html">Contact</a></li>
+        </ul>
+        <div class="bodycontent">
+            <hr>
+            
+            <h1>Fill out this form to contact us!</h1>
+            <form>
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" placeholder="First name"><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+              <label for="email">Email:</label><br>
+              <input type="text" id="email" name="email" placeholder="Email Address"><br>
+              <label for="phone">Phone number:</label><br>
+              <input type="text" id="phone" name="phone" placeholder="(123) 456-7890"><br>
+              <label for="help">How we can help you:</label><br>
+              <textarea id="help" name="help" rows="4" cols="50"></textarea>
+              <br>
+              <button id="myButton" class="button">Submit</button>
+            </form> 
+        </div>
+    </body>
+</html>
