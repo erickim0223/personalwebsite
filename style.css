@@ -1,10 +1,77 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: Lucida Console, Monospace;
+  font-family: Arial black;
   margin: 0;
+}
+
+.intro-slide {
+  height: 100vh;
+  background-color: red;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-slide h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.intro-slide h1 p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.about-slide p, h2 {
+  margin: 0;
+}
+
+.about-slide {
+  padding-top: 59.2px;
+  height: 100vh;
+  background-color: rgb(231, 154, 107);
+  box-sizing: border-box;
+}
+
+.skills-slide p, h2 {
+  margin: 0;
+}
+
+.skills-slide {
+  padding-top: 59.2px;
+  height: 100vh;
+  background-color: rgb(96, 163, 214);
+  box-sizing: border-box;
+}
+
+.project-slide p, h2 {
+  margin: 0;
+}
+
+.project-slide {
+  padding-top: 59.2px;
+  height: 100vh;
+  background-color: rgb(146, 170, 188);
+  box-sizing: border-box;
+}
+
+.contact-slide p, h2 {
+  margin: 0;
+}
+
+.contact-slide {
+  padding-top: 59.2px;
+  height: 100vh;
+  background-color: rgb(45, 79, 105);
+  box-sizing: border-box;
 }
 
 /* Style the header */
@@ -21,15 +88,26 @@ body {
   font-size: 50px;
 }
 
+#logo {
+  height: 50.5px;
+  vertical-align: middle;
+  padding-left: .5%;
+}
+
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
   background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: .5%;
+  padding-bottom: .5%;
 }
 
 /* Style the navigation bar links */
-.navbar a {
-  float: left;
+.navbar a:not(:first-child) {
+  float: right;
   display: block;
   color: white;
   text-align: center;
@@ -44,7 +122,7 @@ body {
 }
 
 /* Change color on hover */
-.navbar a:hover {
+.navbar a:hover:not(:first-child) {
   background-color: #ddd;
   color: black;
 }

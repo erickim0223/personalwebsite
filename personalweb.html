@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Personal Website</title>
+        <title>Eric Kim</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css"/> 
         <script type="text/javascript" src="myjavascript.js"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="./images/logo.png" />
     </head>
     <body>
-        <div class="header">
-            <h1>Eric Kim</h1>
-        </div>
-
         <div class="navbar">
-            <a href="#aboutme">About Me</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#resume">Resume</a>
-            <a href="#contactme">Contact Me</a>
+            <a href="#intro">
+                <img id="logo" src="./images/logo.png" alt="logo">
+            </a>
+            <a href="#contactme">Contact</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#aboutme">About</a>
         </div>
+        <section id="intro" class="intro-slide">
+            <h1>
+                Hi, I'm Eric Kim
+                <br/>
+                Full Stack Developer
+            </h1>
+        </section>
 
-        <div class="row">
-            <div class="side"></div>
-            <div class="main" id="aboutme">
+        <section id="aboutme" class="about-slide">
             <h2>About Me</h2>
             <img class="imgofme" src="./images/photoofme.png" alt="Photo of me">
             <p>
@@ -33,11 +38,24 @@
                 skills to help advance technology.
             </p>
 
-        	<br/>
-        	<hr id="portfolio">
-        	<br/>
+            <h2>Resume</h2>
+            <p><strong>Full Resume</strong>: 
+                <a href="Eric_Kim_BS_ComputerScience_Resume_2023_02.pdf">Eric_Kim_BS_ComputerScience_Resume_2023_02.pdf</a>
+            </p>
+        </section>
 
-            <h2>Portfolio</h2>
+        <section id="skills" class="skills-slide"> 
+            <h2>Skills</h2>
+            <p><strong>Front End Programming Languages</strong>: HTML, CSS, JavaScript</p>
+            <p><strong>Back End Programming Languages</strong>: Java, C#, C++, C, Python</p>
+            <p><strong>Frameworks and Technologies</strong>: ASP.NET, jQuery, Bootstrap, XML</p>
+            <p><strong>Databases</strong>: SQL, SQL Server Management Studio, PostgreSQL, pgAdmin</p>
+            <p><strong>Operating Systems</strong>: Unix, Linux</p>
+            <p><strong>Other Tools</strong>: Atom, JUnit, Chrome DevTools, Valgrind, TortoiseSVN, Linux Terminal</p>
+        </section>
+
+        <section id="projects" class="project-slide"> 
+            <h2>Projects</h2>
             <p><strong>Project</strong>: <a href="tictactoe.html">Tic Tac Toe</a></p>
             <p><strong>Description</strong>: Enjoy this basic game of Tic Tac Toe developed with HTML, CSS, and JavaScript
             </p>
@@ -49,38 +67,14 @@
             <p><strong>Description</strong>: ______</p>
 
         	<p><strong>Github</strong>: <a href="https://github.com/erickim0223">https://github.com/erickim0223</a></p>
+        </section>
 
-        	<br>
-        	<hr id="resume">
-        	<br>
-
-            <h2>Resume</h2>
-            <p><strong>Full Resume</strong>: 
-                <a href="Eric_Kim_BS_ComputerScience_Resume_2023_02.pdf">Eric_Kim_BS_ComputerScience_Resume_2023_02.pdf</a>
-            </p>
-            
-            <h2>Technical Skills</h2>
-            <p><strong>Front End Programming Languages</strong>: HTML, CSS, JavaScript</p>
-            <p><strong>Back End Programming Languages</strong>: Java, C#, C++, C, Python</p>
-            <p><strong>Frameworks and Technologies</strong>: ASP.NET, jQuery, Bootstrap, XML</p>
-            <p><strong>Databases</strong>: SQL, SQL Server Management Studio, PostgreSQL, pgAdmin</p>
-            <p><strong>Operating Systems</strong>: Unix, Linux</p>
-            <p><strong>Other Tools</strong>: Atom, JUnit, Chrome DevTools, Valgrind, TortoiseSVN, Linux Terminal</p>
-
-        	<br>
-        	<hr id="contactme">
-        	<br>
-
+        <section id="contactme" class="contact-slide"> 
             <h2>Contact Me</h2>
-            
             <p><strong>Email</strong>: <a href="mailto:eric.kim@tufts.edu">eric.kim@tufts.edu</a></p>
             <p><strong>Phone Number</strong>: 201-249-4546</p>
             <p><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/kim-er/">https://www.linkedin.com/in/kim-er/</a></p>
-
-            </div>
-            <div class="side"></div>
-
-          </div>
+        </section>
 
     </body>
 </html>
