@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+songs {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+    background: #FFE4C4;
+    counter-reset: song;
+}
+song:before {
+    font-size: 30px;
+    content: "Song #" counter(song);
+    text-decoration: underline;
+    counter-increment: song;
+}
+song {
+    display:block; 
+    border-bottom: 1px solid #666;
+}
+artists {
+    display:block; 
+}
+artists:before {
+    content: "Artist(s): ";
+    color: red;
+}
+artist:not(:last-child):after {
+    content: " & ";
+}
+title {
+    display:block; 
+}
+title:before {
+    content: "Title: ";
+    color: red;
+}
+title.content {
+    text-decoration: underline;
+}
+genres {
+    display:block; 
+}
+genres:before {
+    content: "Genre(s): ";
+    color: red;
+}
+genre:not(:last-child):after {
+    content: " & ";
+}
+year {
+    display:block; 
+}
+year:before {
+    content: "Year Released: ";
+    color: red;
+}
