@@ -7,50 +7,101 @@
         <link rel="stylesheet" href="style.css"/> 
         <script type="text/javascript" src="myjavascript.js"></script>
         <link rel="shortcut icon" type="image/x-icon" href="./images/logo.png" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="navbar">
-            <a href="#intro">
-                <img id="logo" src="./images/logo.png" alt="logo">
-            </a>
-            <a href="#contactme">Contact</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#aboutme">About</a>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top justify-content-end">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#intro"><img id="logo" src="./images/logo.png" alt="logo"></a>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactme">Contact</a>
+                </li>
+            </ul>
         </div>
+    </nav>
+          
+
+
         <section id="intro" class="intro-slide">
             <h1>
-                Hi, I'm Eric Kim
+                Hi, I'm <div class="name">Eric Kim</div>
                 <br/>
-                Full Stack Developer
+                <p>Full Stack Developer</p>
+                <button type="button" class="btn btn-outline-light" onclick="location.replace('personalweb.html#contactme')">Contact Me</button>
             </h1>
         </section>
 
         <section id="aboutme" class="about-slide">
             <h2>About Me</h2>
+            <br/>
             <p>
-                Hello, I'm a senior at Tufts University majoring in Computer Science and minoring in finance. 
-                I'm interested in an entry level position for software development or web development. 
-                I have coding experience in C++, C, and Java in academic settings and gained professional 
-                experience in C#, HTML, CSS, JavaScript, and SQL through my recent internship at Crestron Electronics.
-                My time at Crestron Electronics affirmed my desire to pursue a career where I can use my coding 
-                skills to help advance technology.
+                Hello, I'm Eric Kim, a senior at Tufts University majoring in Computer Science and minoring in finance. 
             </p>
-
-            <h2>Resume</h2>
-            <p><strong>Full Resume</strong>: 
-                <a href="Eric_Kim_BS_ComputerScience_Resume_2023_02.pdf">Eric_Kim_BS_ComputerScience_Resume_2023_02.pdf</a>
+            <br/>
+            <p>
+                I'm interested in software development or web development.
             </p>
+            <br/>
+            <p>
+                I have a strong desire to pursue a career where I can use my coding skills to help advance technology.
+            </p>
+            <br/>
+            <button type="button" class="btn btn-outline-dark" onclick="location.replace('Eric_Kim_BS_ComputerScience_Resume_2023_02.pdf')">Resume</button>
         </section>
 
         <section id="skills" class="skills-slide"> 
             <h2>Skills</h2>
-            <p><strong>Front End Programming Languages</strong>: HTML, CSS, JavaScript</p>
-            <p><strong>Back End Programming Languages</strong>: Java, C#, C++, C, Python</p>
-            <p><strong>Frameworks and Technologies</strong>: ASP.NET, jQuery, Bootstrap, XML</p>
-            <p><strong>Databases</strong>: SQL, SQL Server Management Studio, PostgreSQL, pgAdmin</p>
-            <p><strong>Operating Systems</strong>: Unix, Linux</p>
-            <p><strong>Other Tools</strong>: Atom, JUnit, Chrome DevTools, Valgrind, TortoiseSVN, Linux Terminal</p>
+            <center>
+                <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <div class="myborder">
+                            <h4>Programming Languages</h4>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>JavaScript</p>
+                            <p>Java</p>
+                            <p>Python</p>
+                            <p>PHP</p>
+                            <p>SQL</p>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="myborder">
+                            <h4>Frameworks/Technologies</h4>
+                            <p>jQuery</p>
+                            <p>AJAX</p>
+                            <p>XML</p>
+                            <p>JSON</p>
+                            <p>Bootstrap</p>
+                      </div>
+                    </div>
+                      <div class="col">
+                        <div class="myborder">
+                            <h4>Other Tools</h4>
+                            <p>PostgreSQL</p>
+                            <p>MySQL</p>
+                            <p>pgAdmin</p>
+                            <p>Unix/Linux</p>
+                            <p>Git</p>
+                            <p>TortoiseSVN</p>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+            </center>
         </section>
 
         <section id="projects" class="project-slide"> 

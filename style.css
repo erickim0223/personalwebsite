@@ -5,10 +5,8 @@ html {
 * {
   box-sizing: border-box;
 }
-
-body {
-  font-family: Arial black;
-  margin: 0;
+html, body {
+  font-family: Arial black !important;
 }
 
 .intro-slide {
@@ -19,16 +17,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.intro-slide h1 {
   font-size: 30px;
   text-align: center;
 }
 
-.intro-slide h1 p {
+.intro-slide p {
   font-size: 20px;
-  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.intro-slide h1 .name {
+  color: white;
+  display: inline;
 }
 
 .about-slide p, h2 {
@@ -36,9 +37,11 @@ body {
 }
 
 .about-slide {
-  padding-top: 59.2px;
-  height: 100vh;
-  background-color: rgb(252, 168, 0);
+  padding-left: 5%;
+  padding-right: 40%;
+  padding-top: 75px;
+  height: 60vh;
+  background-color: rgb(160, 145, 145);
   color: black;
   box-sizing: border-box;
 }
@@ -48,10 +51,11 @@ body {
 }
 
 .skills-slide {
-  padding-top: 59.2px;
-  height: 100vh;
-  background-color: black;
-  color: rgb(252, 168, 0);
+  padding-left: 5%;
+  padding-top: 75px;
+  height: 70vh;
+  background-color: rgb(160, 145, 145);
+  color: black;
   box-sizing: border-box;
 }
 
@@ -60,9 +64,10 @@ body {
 }
 
 .project-slide {
-  padding-top: 59.2px;
+  padding-left: 5%;
+  padding-top: 75px;
   height: 100vh;
-  background-color: rgb(252, 168, 0);
+  background-color: rgb(160, 145, 145);
   color: black;
   box-sizing: border-box;
 }
@@ -72,107 +77,42 @@ body {
 }
 
 .contact-slide {
-  padding-top: 59.2px;
+  padding-left: 5%;
+  padding-top: 75px;
   height: 100vh;
-  background-color: black;
-  color: rgb(252, 168, 0);
+  background-color: rgb(160, 145, 145);
+  color: black;
   box-sizing: border-box;
 }
 
-/* Style the header */
-.header {
-  padding: 60px;
-  text-align: center;
-  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210715/pngtree-science-and-technology-sense-computer-business-hexagon-geometric-dot-background-image_742353.jpg);
-  height: 250px;
-  color: white;
-}
-
-/* Increase the font size of the h1 element */
-.header h1 {
-  font-size: 50px;
-}
-
 #logo {
-  height: 50.5px;
-  vertical-align: middle;
-  padding-left: .5%;
+  height: 40px;
 }
 
-/* Style the top navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding-top: .5%;
-  padding-bottom: .5%;
+nav div ul li {
+  font-size: 20px;
+  padding: 0 15px;
+  font-family: Arial black;
 }
 
-/* Style the navigation bar links */
-.navbar a:not(:first-child) {
-  float: right;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-  flex: 70%;
-}
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
-/* Change color on hover */
-.navbar a:hover:not(:first-child) {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Column container */
-.row {  
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  flex: 15%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-/* Main column */
-.main {   
-  flex: 70%;
+nav div ul li a:hover {
+  color: black !important;
   background-color: white;
-  padding: 20px;
 }
 
-.imgofme {
-    width: 298px;
-    height: 369px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 50%; */
+div .col-3 {
+  border: white;
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
+.myborder {
+  width: 400px;
+  height: 300px;
+  border: 5px solid black;
+  padding: 0 0 50px 0;
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width:100%;
-  }
+.myborder:hover {
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05); 
 }
