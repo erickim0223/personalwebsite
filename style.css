@@ -39,8 +39,8 @@ html, body {
 .about-slide {
   padding-left: 5%;
   padding-right: 40%;
-  padding-top: 75px;
-  height: 60vh;
+  padding-top: 100px;
+  height: 65vh;
   background-color: rgb(160, 145, 145);
   color: black;
   box-sizing: border-box;
@@ -77,9 +77,8 @@ html, body {
 }
 
 .contact-slide {
-  padding-left: 5%;
-  padding-top: 75px;
-  height: 100vh;
+  padding-top: 100px;
+  height: 75vh;
   background-color: rgb(160, 145, 145);
   color: black;
   box-sizing: border-box;
@@ -115,4 +114,8 @@ div .col-3 {
   -ms-transform: scale(1.05);
   -webkit-transform: scale(1.05);
   transform: scale(1.05); 
+}
+
+footer {
+  background-color: rgb(160, 145, 145);
 }
