@@ -66,7 +66,7 @@ html, body {
 .project-slide {
   padding-left: 5%;
   padding-top: 75px;
-  height: 100vh;
+  height: 275vh;
   background-color: rgb(160, 145, 145);
   color: black;
   box-sizing: border-box;
@@ -120,6 +120,9 @@ footer {
   background-color: rgb(142, 129, 129);
 }
 
+figcaption {
+  background-color: rgb(142, 129, 129);
+}
 
 @media screen and (max-width: 767px) {
   .contact-slide {
@@ -133,5 +136,14 @@ footer {
 @media screen and (max-width: 1400px) {
   .skills-slide {
     height: 150vh;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #dbinterface {
+    width: 450px;
+  }
+  #personalwebsite {
+    width: 450px;
   }
 }
