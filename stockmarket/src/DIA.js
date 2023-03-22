@@ -1,7 +1,7 @@
 import React from 'react';
 import Plot from 'react-plotly.js';
 
-class Stock extends React.Component {
+class DIA extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -16,8 +16,10 @@ class Stock extends React.Component {
     
     fetchStock() {
         const pointerToThis = this;
-        const API_KEY = 'OEKHOQR51XS2XJ4P';
-        let StockSymbol = 'SPOT';
+        // const API_KEY = 'OEKHOQR51XS2XJ4P';
+        const API_KEY = 'RJZOYVBITE70DG20';
+        // const API_KEY = '41B7ZM7IAC7DJBLI';
+        let StockSymbol = 'DIA';
         let API_Call = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=${StockSymbol}&outputsize=compact&apikey=${API_KEY}`;
         let stockChartXValuesFunction = [];
         let stockChartYValuesFunction = [];
@@ -59,11 +61,11 @@ class Stock extends React.Component {
                         marker: {color: 'red'},
                     },
                     ]}
-                    layout={{width: 720, height: 440, title: 'Spotify (Last 100 Days)'}}
+                    layout={{width: 720, height: 440, title: 'Dow Jones (DIA ETF)'}}
                 />
             </div>
         )
     }
 }
 
-export default Stock;
+export default DIA;
