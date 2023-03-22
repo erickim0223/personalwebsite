@@ -52,7 +52,7 @@ html, body {
 
 .skills-slide {
   padding-left: 5%;
-  padding-top: 75px;
+  padding-top: 100px;
   height: 70vh;
   background-color: rgb(160, 145, 145);
   color: black;
@@ -65,7 +65,7 @@ html, body {
 
 .project-slide {
   padding-left: 5%;
-  padding-top: 75px;
+  padding-top: 100px;
   height: 275vh;
   background-color: rgb(160, 145, 145);
   color: black;
