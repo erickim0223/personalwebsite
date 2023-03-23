@@ -8,6 +8,15 @@ html {
 html, body {
   font-family: Arial black !important;
 }
+h2 {
+  padding-bottom: 5px;
+}
+
+.underline {
+  background-color: white;
+  height: 5px;
+  width: 200px;
+}
 
 .intro-slide {
   font-size: 30px;
@@ -61,7 +70,7 @@ html, body {
 .project-slide {
   padding-left: 5%;
   padding-top: 100px;
-  height: 275vh;
+  height: 285vh;
   background-color: #404d5b;
   color: white;
   box-sizing: border-box;
@@ -81,6 +90,10 @@ html, body {
 
 #logo {
   height: 40px;
+}
+
+#person {
+  padding-left: 200px;
 }
 
 nav div ul li {
@@ -105,8 +118,9 @@ div .col-3 {
 .myborder {
   width: 400px;
   height: 300px;
-  border: 3px solid white;
-  padding: 0 0 50px 0;
+  border: 1px solid white;
+  padding: 25px 0 50px 0;
+  background-color: #1a1e23;
 }
 
 .myborder:hover {
@@ -126,15 +140,28 @@ figcaption {
 @media screen and (max-width: 767px) {
   .contact-slide {
     height: 125vh;
-  }
-  .about-slide {
-    height: 90vh;
+    padding-top: 60px;
   }
 }
 
 @media screen and (max-width: 1400px) {
   .skills-slide {
     height: 150vh;
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .about-slide {
+    height: 120vh;
+    padding-top: 60px;
+  }
+  .project-slide {
+    height: 250vh;
+    padding-top: 60px;
+  }
+  #person {
+    padding-left: 20px;
   }
 }
 
