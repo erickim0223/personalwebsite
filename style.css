@@ -10,25 +10,20 @@ html, body {
 }
 
 .intro-slide {
-  height: 100vh;
-  background-color: black;
-  color: rgb(252, 168, 0);
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 30px;
   text-align: center;
 }
 
 .intro-slide p {
   font-size: 20px;
-  padding: 0;
-  margin: 0;
 }
 
-.intro-slide h1 .name {
+.intro-slide h1 {
   color: white;
+  padding-top: 300px;
+}
+.intro-slide h1 .namee {
+  color: #fbcb3c;
   display: inline;
 }
 
@@ -41,8 +36,8 @@ html, body {
   padding-right: 40%;
   padding-top: 100px;
   height: 65vh;
-  background-color: rgb(160, 145, 145);
-  color: black;
+  background-color: #404d5b;
+  color: white;
   box-sizing: border-box;
 }
 
@@ -54,8 +49,8 @@ html, body {
   padding-left: 5%;
   padding-top: 100px;
   height: 70vh;
-  background-color: rgb(160, 145, 145);
-  color: black;
+  background-color: #404d5b;
+  color: white;
   box-sizing: border-box;
 }
 
@@ -67,8 +62,8 @@ html, body {
   padding-left: 5%;
   padding-top: 100px;
   height: 275vh;
-  background-color: rgb(160, 145, 145);
-  color: black;
+  background-color: #404d5b;
+  color: white;
   box-sizing: border-box;
 }
 
@@ -79,8 +74,8 @@ html, body {
 .contact-slide {
   padding-top: 100px;
   height: 80vh;
-  background-color: rgb(160, 145, 145);
-  color: black;
+  background-color: #404d5b;
+  color: white;
   box-sizing: border-box;
 }
 
@@ -92,6 +87,10 @@ nav div ul li {
   font-size: 20px;
   padding: 0 15px;
   font-family: Arial black;
+}
+
+nav div ul li a {
+  color: white !important;
 }
 
 nav div ul li a:hover {
@@ -106,7 +105,7 @@ div .col-3 {
 .myborder {
   width: 400px;
   height: 300px;
-  border: 5px solid black;
+  border: 3px solid white;
   padding: 0 0 50px 0;
 }
 
@@ -117,11 +116,11 @@ div .col-3 {
 }
 
 footer {
-  background-color: rgb(142, 129, 129);
+  background-color: #1a1e23;
 }
 
 figcaption {
-  background-color: rgb(142, 129, 129);
+  background-color: #1a1e23;
 }
 
 @media screen and (max-width: 767px) {
@@ -144,6 +143,12 @@ figcaption {
     width: 450px;
   }
   #personalwebsite {
+    width: 450px;
+  }
+  #stockpredictor {
+    width: 450px;
+  }
+  figcaption {
     width: 450px;
   }
 }
