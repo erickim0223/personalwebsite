@@ -18,3 +18,4 @@ Challenges: <br>
 Plan to add: <br>
 - More stylistic email success/failure page
 - More projects (thinking of arcade-like website and a tools website with calculator, weather)
+- Fix mobile appearance - probably shrink skill boxes and fix width background color
