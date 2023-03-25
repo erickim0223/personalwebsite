@@ -153,7 +153,7 @@ figcaption {
 
 @media screen and (max-width: 1200px) {
   .about-slide {
-    height: 120vh;
+    height: 130vh;
     padding-top: 60px;
   }
   .project-slide {
