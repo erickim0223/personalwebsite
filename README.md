@@ -14,8 +14,8 @@ For the live site, click here: [https://erickim0223.github.io/personalwebsite/pe
 
 Challenges: <br>
 - Learning Bootstrap/maintaining responsiveness
+- Making the website look good in mobile
 
 Plan to add: <br>
 - More stylistic email success/failure page
 - More projects (thinking of arcade-like website and a tools website with calculator, weather)
-- Fix mobile appearance - probably shrink skill boxes and fix width background color

@@ -179,3 +179,44 @@ figcaption {
     width: 450px;
   }
 }
+
+@media screen and (max-width: 570px) {
+  .myborder {
+    width: 300px;
+    height: 200px;
+    padding: 25px 0 50px 0;
+  }
+  .myborder h4 {
+    font-size: 15px;
+  }
+  .myborder p {
+    font-size: 12px;
+  }
+  .col-xl-10 p {
+    font-size: 12px;
+  }
+  .skills-slide {
+    height: 130vh;
+  }
+  #dbinterface {
+    width: 350px;
+  }
+  #personalwebsite {
+    width: 350px;
+  }
+  #financialdashboard {
+    width: 350px;
+  }
+  figcaption {
+    width: 350px;
+  }
+  figcaption h4 {
+    font-size: 15px;
+  }
+  figcaption p {
+    font-size: 12px;
+  }
+  .project-slide {
+    height: 220vh;
+  }
+}
