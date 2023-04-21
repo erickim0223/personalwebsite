@@ -13,6 +13,7 @@ function App() {
       <Stock></Stock>
       <Stock></Stock>
       <Stock></Stock>
+      <Stock></Stock>
     </div>
   );
 }
