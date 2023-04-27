@@ -12,7 +12,6 @@ function App() {
       <DIA></DIA>
       <Stock></Stock>
       <Stock></Stock>
-      <Stock></Stock>
     </div>
   );
 }
