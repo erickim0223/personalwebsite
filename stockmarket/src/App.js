@@ -11,6 +11,7 @@ function App() {
       <Interest></Interest>
       <DIA></DIA>
       <Stock></Stock>
+      <Stock></Stock>
     </div>
   );
 }
