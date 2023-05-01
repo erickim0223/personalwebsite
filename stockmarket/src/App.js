@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Stock Market/Economy</h1>
+      <h1>Stock Market</h1>
       <Interest></Interest>
       <DIA></DIA>
       <Stock></Stock>
