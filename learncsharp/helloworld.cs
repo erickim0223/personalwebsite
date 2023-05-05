@@ -1,4 +1,6 @@
 namespace Helloworld
 {
-    
+    class Hello {
+
+    }
 }
