@@ -5,7 +5,7 @@ namespace Helloworld
             helloworld();
         }
         public static void helloworld() {
-            System.Console.WriteLine("Hello World!");
+            System.Console.WriteLine("Hello World");
         }
     }
 }
