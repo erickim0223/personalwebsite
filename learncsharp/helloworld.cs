@@ -7,6 +7,9 @@ namespace Helloworld
             helloworld();
         }
         public static void helloworld() {
+            Console.WriteLine("Enter your name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hi, " + name);
             Console.WriteLine(add(2,3));
         }
         //comment add function
