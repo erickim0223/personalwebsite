@@ -5,11 +5,12 @@ namespace Helloworld
     class Hello {
         static void Main(string[] args) {
             helloworld();
+            Console.WriteLine(Math.Max(1, 5));
         }
         public static void helloworld() {
-            Console.WriteLine("Enter your name: ");
-            string name = Console.ReadLine();
-            Console.WriteLine("Hi, " + name);
+            // Console.WriteLine("Enter your name: ");
+            // string name = Console.ReadLine();
+            // Console.WriteLine("Hi, " + name);
             Console.WriteLine(add(2,3));
         }
         //comment add function
