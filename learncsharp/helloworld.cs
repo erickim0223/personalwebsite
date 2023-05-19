@@ -4,10 +4,9 @@ namespace Helloworld
 {
     class Hello {
         static void Main(string[] args) {
-            string firstName = "Eric";
-            string lastName = "Kim";
-            string name = $"My full name is: {firstName} {lastName}";
-            Console.WriteLine(name);
+            int test = 0;
+            string res = (test == 0) ? "True" : "False";
+            Console.WriteLine(res);
         }
     }
 }
