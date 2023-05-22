@@ -2,15 +2,23 @@ using System;
 
 namespace Helloworld
 {
-    class Person {
+    class Animal {
         public string Name  // property
         { get; set; }
+        public void sound() {
+            Console.WriteLine("Animal sound");
+        }
     }
+
+    class Dog : Animal {
+        public string type = "Dog";
+    }
+
     class Hello {
         static void Main(string[] args) {
-            Person mypers = new Person();
-            mypers.Name = "Name";
-            Console.WriteLine(mypers.Name);
+            Dog dog = new Dog();
+            dog.sound();
+            Console.WriteLine(dog.type);
         }
     }
 }
