@@ -16,9 +16,12 @@ namespace Helloworld
 
     class Hello {
         static void Main(string[] args) {
-            Dog dog = new Dog();
-            dog.sound();
-            Console.WriteLine(dog.type);
+            try {
+                int[] myNumbers = {1, 2, 3};
+                Console.WriteLine(myNumbers[10]);
+            } catch (Exception e) {
+                Console.WriteLine(e.Message);
+            }
         }
     }
 }
