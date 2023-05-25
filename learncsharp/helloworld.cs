@@ -18,7 +18,7 @@ namespace Helloworld
         static void Main(string[] args) {
             try {
                 int[] myNumbers = {1, 2, 3};
-                Console.WriteLine(myNumbers[1]);
+                Console.WriteLine(myNumbers[12]);
             } catch (Exception e) {
                 Console.WriteLine(e.Message);
             }
