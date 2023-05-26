@@ -21,6 +21,8 @@ namespace Helloworld
                 Console.WriteLine(myNumbers[12]);
             } catch (Exception e) {
                 Console.WriteLine(e.Message);
+            } finally {
+                Console.WriteLine("FINALLY CLAUSE!");
             }
         }
     }
