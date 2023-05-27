@@ -22,7 +22,7 @@ namespace Helloworld
             } catch (Exception e) {
                 Console.WriteLine(e.Message);
             } finally {
-                Console.WriteLine("FINALLY CLAUSE!");
+                Console.WriteLine("FINALLY CLAUSE");
             }
         }
     }
