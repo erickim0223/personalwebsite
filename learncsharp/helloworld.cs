@@ -13,6 +13,9 @@ namespace Helloworld
     class Dog : Animal {
         public string type = "Dog";
     }
+    class Cat : Animal {
+        public string type = "Cat";
+    }
 
     class Hello {
         static void Main(string[] args) {
