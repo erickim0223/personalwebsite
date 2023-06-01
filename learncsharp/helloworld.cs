@@ -6,7 +6,7 @@ namespace Helloworld
         public string Name  // property
         { get; set; }
         public void sound() {
-            Console.WriteLine("Animal sound");
+            Console.WriteLine("Animal's sound");
         }
     }
 
