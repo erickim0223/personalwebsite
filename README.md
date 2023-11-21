@@ -6,7 +6,6 @@ Languages/Technologies used:
 - SCSS
 - JavaScript
 - Bootstrap 5
-- PHP 
 <br>
  
 For the live site, click here: [https://erickim0223.github.io/personalwebsite/personalweb.html](https://erickim0223.github.io/personalwebsite/personalweb.html) 
