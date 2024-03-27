@@ -3,7 +3,7 @@ This project is a responsive personal website to introduce myself and showcase s
 Languages/Technologies used:
 - HTML
 - CSS
-- SCSS
+- SASS
 - JavaScript
 - Bootstrap 5
 <br>
